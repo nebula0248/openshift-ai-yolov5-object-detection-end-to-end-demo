@@ -39,8 +39,8 @@
             "ui_data": {
               "label": "data_ingestion.py",
               "image": "/notebook/peter-data-science-experiment/object-detection-workbench/static/elyra/python.svg",
-              "x_pos": 197,
-              "y_pos": 291,
+              "x_pos": 201,
+              "y_pos": 142,
               "description": "Run Python script"
             }
           },
@@ -109,8 +109,8 @@
             "ui_data": {
               "label": "model_training.py",
               "image": "/notebook/peter-data-science-experiment/object-detection-workbench/static/elyra/python.svg",
-              "x_pos": 656,
-              "y_pos": 384,
+              "x_pos": 389,
+              "y_pos": 305,
               "description": "Run Python script"
             }
           },
@@ -174,8 +174,8 @@
             "ui_data": {
               "label": "preprocessing.py",
               "image": "/notebook/peter-data-science-experiment/object-detection-workbench/static/elyra/python.svg",
-              "x_pos": 428,
-              "y_pos": 338,
+              "x_pos": 299,
+              "y_pos": 226,
               "description": "Run Python script"
             }
           },
@@ -241,8 +241,8 @@
             "ui_data": {
               "label": "model_conversion.py",
               "image": "/notebook/peter-data-science-experiment/object-detection-workbench/static/elyra/python.svg",
-              "x_pos": 889,
-              "y_pos": 426,
+              "x_pos": 488,
+              "y_pos": 388,
               "description": "Run Python script"
             }
           },
@@ -312,8 +312,8 @@
             "ui_data": {
               "label": "model_upload.py",
               "image": "/notebook/peter-data-science-experiment/object-detection-workbench/static/elyra/python.svg",
-              "x_pos": 1111,
-              "y_pos": 471,
+              "x_pos": 581,
+              "y_pos": 468,
               "description": "Run Python script"
             }
           },
