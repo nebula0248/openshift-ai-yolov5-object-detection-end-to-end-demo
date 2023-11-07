@@ -1,0 +1,11 @@
+# PyTorch
+
+FROM quay.io/modh/runtime-images@sha256:8b962c575adfdb46a9aa3e3fc30fdbe470d049b0ff69f68c5c9f950496ae26c5
+
+RUN pip install pip==22.3.1 setuptools==65.3.0
+
+COPY requirements.txt ./
+
+COPY requirements-elyra.txt ./
+
+RUN pip install openimages && pip install --no-cache-dir -r requirements.txt && pip install --no-cache-dir -r requirements-elyra.txt && pip uninstall -y opencv-python && pip uninstall -y opencv-python-headless && pip install opencv-python-headless
